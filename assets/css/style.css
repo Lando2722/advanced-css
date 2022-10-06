@@ -39,10 +39,9 @@ nav a:hover {
 }
 
 main {
-  display: flex;
   flex: 1 1 0;
   max-width: 96%;
-  margin: 2% auto;
+  margin: 2% 0;
 }
 
 article {
