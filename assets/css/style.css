@@ -63,8 +63,9 @@ main {
 
 #contactme{
   width: 100%;
-  height: 100vh;
+  border: 1px solid green
 }
+
 article {
   border-bottom: 1px solid #13293d;
 }
@@ -89,10 +90,10 @@ footer {
 }
 .section-content{
   width:600px;
-  height: 100%;
-  border: 1px green solid;
-
+  position: absolute;
+  right:3.5em;
 }
+
 section img{
   width:60%;
 }
@@ -106,6 +107,7 @@ section img{
 }
 #picsource{
   height: 700px;
+  width: 400px;
 }
 
 /* TODO: Add code here to select all <a> elements that link to a file with a `.css` extension */
